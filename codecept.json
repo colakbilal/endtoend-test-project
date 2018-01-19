@@ -15,7 +15,9 @@
   },
   "include": {
     "I": "./steps_file.js",
-    "homePage": "./pages/home.js"
+    "homePage": "./pages/home.js",
+    "detail_searchPage": "./pages/detail_search.js",
+    "search_resultPage": "./pages/search_result.js"
   },
   "mocha": {},
   "bootstrap": false,

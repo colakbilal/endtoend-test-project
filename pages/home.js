@@ -18,7 +18,7 @@ module.exports = {
     loginLink: '.login-text',
     registerLink: '.register-text',
     newClassifiedButton: '.new-classified',
-    displayWindowList: '//ul[@class="vitrin-list clearfix"]//li',
+    showCaseList: '//ul[@class="vitrin-list clearfix"]//li',
     vehicleLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/vasita"]'},
     automobileLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/otomobil"]'},
     suvLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/arazi-suv-pick-up"]'},
