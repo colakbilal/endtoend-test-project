@@ -3,8 +3,8 @@
   "helpers": {
     "WebDriverIO": {
       "url": "http://www.sahibinden.com",
-      "smartWait": 5000,
-      "browser": "firefox",
+      "smartWait": 10000,
+      "browser": "chrome",
       "restart": false,
       "windowSize": "maximize",
       "timeouts": {
@@ -25,5 +25,14 @@
   "hooks": [],
   "tests": "./tests/*_test.js",
   "timeout": 10000,
-  "name": "sahibinden"
+  "name": "sahibinden",
+  "multiple": {
+    "basic": {
+      "browsers": [
+        "chrome",
+        "firefox"
+      ]
+    }
+  }
 }
+

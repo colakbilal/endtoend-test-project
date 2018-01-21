@@ -11,12 +11,15 @@ module.exports = {
 
   // insert your locators and methods here
   fields: {
-    currentSearchFilters: {id: 'currentSearchFilters'}
+    searchResultsSearchForm: {id: 'searchResultsSearchForm'}
   },
 
   waitForLoadPage(){
-    I.waitForElement(this.fields.currentSearchFilters);
+    I.waitForElement(this.fields.searchResultsSearchForm);
+  },
 
+  displayNoListingSearchMessage(){
+    I.see('Arama filtrelerinize uygun ilan bulunamadı.');
   },
 
 }

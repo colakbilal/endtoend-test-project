@@ -14,6 +14,7 @@ module.exports = {
   fields: {
     headerLogo: {xpath: '//p[@class="clearfix"]//a[@class="logo"]'},
     searchBox: {id: 'searchText'},
+    headerSearchSubmitButton: {xpath: '//*[@id="searchSuggestionForm"]//button[@type="submit"]'},
     detailSearchLink: {xpath: '//*[@id="searchSuggestionForm"]//a[@href="https://www.sahibinden.com/arama/detayli"]'},
     loginLink: '.login-text',
     registerLink: '.register-text',
@@ -23,6 +24,7 @@ module.exports = {
     automobileLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/otomobil"]'},
     suvLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/arazi-suv-pick-up"]'},
     motorcycleLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/motosiklet"]'}
+
   },
 
   waitForPageLoad(){
