@@ -8,8 +8,8 @@
       "restart": false,
       "windowSize": "maximize",
       "timeouts": {
-        "script": 60000,
-        "page load": 10000
+        "script": 10000,
+        "page load": 20000
       }
     }
   },
@@ -17,14 +17,16 @@
     "I": "./steps_file.js",
     "homePage": "./pages/home.js",
     "detail_searchPage": "./pages/detail_search.js",
-    "search_resultPage": "./pages/search_result.js"
+    "detail_search_resultPage": "./pages/detail_search_result.js",
+    "general_search_resultPage": "./pages/general_search_result.js"
+
   },
   "mocha": {},
   "bootstrap": false,
   "teardown": null,
   "hooks": [],
   "tests": "./tests/*_test.js",
-  "timeout": 10000,
+  "timeout": 20000,
   "name": "sahibinden",
   "multiple": {
     "basic": {
@@ -35,4 +37,3 @@
     }
   }
 }
-
