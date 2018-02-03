@@ -4,9 +4,9 @@
 
 module.exports = function() {
   let motorcycleModel = new DataTable(['model','count']);
-    motorcycleModel.add(['Yamaha MT07','35']);
-    motorcycleModel.add(['Yamaha MT09','13']);
-    motorcycleModel.add(['Yamaha MT25','60']);
+    motorcycleModel.add(['Yamaha MT07','34']);
+    motorcycleModel.add(['Yamaha MT09','17']);
+    motorcycleModel.add(['Yamaha MT25','54']);
     return motorcycleModel;
 
 }
