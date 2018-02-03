@@ -19,11 +19,8 @@ module.exports = {
     loginLink: '.login-text',
     registerLink: '.register-text',
     newClassifiedButton: '.new-classified',
-    showCaseList: '//ul[@class="vitrin-list clearfix"]//li',
-    vehicleLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/vasita"]'},
-    automobileLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/otomobil"]'},
-    suvLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/arazi-suv-pick-up"]'},
-    motorcycleLink: {xpath: '//*[@class="categories-left-menu"]//*[@class="category-3517"]//a[@href="/kategori/motosiklet"]'}
+    showCaseList: {xpath: '//ul[@class="vitrin-list clearfix"]//li'},
+    leftMenuCategoryItem(category) {return {xpath: '//*[@class="categories-left-menu"]//a[@href="/kategori/'+ category + '"]'};}
 
   },
 

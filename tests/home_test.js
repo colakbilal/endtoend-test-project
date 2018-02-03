@@ -17,9 +17,9 @@ Scenario('test existence of some homepage elements', (I,homePage, detail_searchP
 
     I.seeNumberOfVisibleElements(homePage.fields.showCaseList, 56);
 
-    I.seeElement(homePage.fields.vehicleLink);
-    I.seeElement(homePage.fields.automobileLink);
-    I.seeElement(homePage.fields.suvLink);
-    I.seeElement(homePage.fields.motorcycleLink);
+    I.seeElement(homePage.fields.leftMenuCategoryItem('vasita'));
+    I.seeElement(homePage.fields.leftMenuCategoryItem('otomobil'));
+    I.seeElement(homePage.fields.leftMenuCategoryItem('arazi-suv-pick-up'));
+    I.seeElement(homePage.fields.leftMenuCategoryItem('motosiklet'));
 
 });
